@@ -1,0 +1,121 @@
+.navbar {
+    transition: all 0.4s;
+    /*transicionar todos los atributos en 0.4 segundos*/
+    background-image: linear-gradient(to right, #9b8667 0%, #dbd7d3 120%);
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 992px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: black;
+    }
+
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+        color: black;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+body {
+    min-height: 110vh;
+    background-color: #9b8667;
+    background-image: linear-gradient(to right, #9b8667 0%, #dbd7d3 120%);
+}
+
+@font-face {
+    font-family: "Burowai";
+    src: url("../Fuentes/burowai-font/BurowaiRegular-3zVjX.ttf") format("truetype"),
+        url("../Fuentes/burowai-font/BurowaiRegular-ZVxZq.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Rounded";
+    src: url("../Fuentes/rounded-sans-serif-7-font/RoundedSansSerif7-ZzMJ.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Segoe";
+    src: url("../Fuentes/segoe-ui-4-cufonfonts/Segoe\ UI.ttf") format("truetype");
+}
+
+h1 {
+    font-family: "Burowai", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: "Rounded", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.display-1 {
+    font-size: calc(3.5rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Segoe", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Segoe", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #5a6739;
+    border-color: #5a6739;
+}
+
+.inicio {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.conocenos {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.adopta {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.haztesocio {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
